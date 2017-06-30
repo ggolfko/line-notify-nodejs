@@ -1,0 +1,17 @@
+{
+  "name": "line-notify",
+  "version": "0.0.1",
+  "description": "line notify using node.js",
+  "main": "server.js",
+  "scripts": {
+    "dev":"nodemon server.js --watch common --watch server"
+  },
+  "author": "Kitti Onthong",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "monitor": "^0.6.10",
+    "request": "^2.81.0",
+    "nodemon": "^1.11.0"
+  }
+}
