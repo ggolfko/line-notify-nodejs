@@ -2,8 +2,6 @@ const request = require('request')
 const axios = require('axios');
 const Monitor = require('monitor');
 
-const processMonitor = new Monitor(options);
-
 /**
  * baseURL json
  * @type {[type]}
@@ -16,12 +14,14 @@ const instance = axios.create({
  * options for processMonitor
  * @type {Object}
  */
-const options = {
+let options = {
   probeClass: 'Process',
   initParams: {
     pollInterval: 10000
   }
 }
+
+const processMonitor = new Monitor(options);
 
 /**
  * line token
