@@ -9,7 +9,7 @@
   "author": "Kitti Onthong",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.16.2",
+    "axios": "^0.19.0",
     "monitor": "^0.6.10",
     "request": "^2.81.0",
     "nodemon": "^1.11.0"
